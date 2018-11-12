@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
-    "node": ">=4"
+    "node": "0.10.x"
   },
   "scripts": {
     "lint": "eslint .",
@@ -30,8 +30,6 @@
     "url": ""
   },
   "license": "UNLICENSED",
-  "description": "iscclb",
-   "engines": {
-        "node": "0.10.x"
-    }
+  "description": "iscclb"
+
 }
