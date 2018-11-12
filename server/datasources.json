@@ -1,8 +1,12 @@
 {
   "mongodb": {
+    "host": "localhost",
+    "port": 27017,
     "url": "mongodb://admin:freefood4U@ds259463.mlab.com:59463/iscc",
+    "database": "iscc",
+    "password": "",
     "name": "mongodb",
-    "defaultForType": "mongodb",
-    "connector": "loopback-connector-mongodb"
+    "user": "",
+    "connector": "mongodb"
   }
 }
