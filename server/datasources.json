@@ -8,5 +8,11 @@
     "name": "db",
     "user": "",
     "connector": "mongodb"
-  }
+  },
+  "mongodb": {
+    "url": "mongodb://admin:freefood4U@ds259463.mlab.com:59463/iscc",
+    "name": "mongodb",
+    "defaultForType": "mongodb",
+    "connector": "loopback-connector-mongodb"
+  },
 }
