@@ -4,5 +4,5 @@
     "name": "mongodb",
     "defaultForType": "mongodb",
     "connector": "loopback-connector-mongodb"
-  },
+  }
 }
