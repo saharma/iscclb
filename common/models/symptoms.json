@@ -1,0 +1,44 @@
+{
+  "name": "symptoms",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "pain": {
+      "type": "string"
+    },
+    "stress": {
+      "type": "string"
+    },
+    "stool": {
+      "type": "string"
+    },
+    "bowelm": {
+      "type": "string"
+    },
+    "bowelf": {
+      "type": "string"
+    },
+    "bvisit": {
+      "type": "string"
+    },
+    "created_date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

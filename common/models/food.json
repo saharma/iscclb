@@ -1,0 +1,54 @@
+{
+  "name": "food",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Username": {
+      "type": "String",
+      "required": true
+    },
+    "date": {
+      "type": "Date",
+      "required": true
+    },
+    "brand": {
+      "type": "String",
+      "required": true
+    },
+    "foodname": {
+      "type": "String",
+      "required": true
+    },
+    "servingsize": {
+      "type": "String",
+      "required": true
+    },
+    "servingpercontainer": {
+      "type": "String",
+      "required": true
+    },
+    "amtperserving": {
+      "type": "String",
+      "required": true
+    },
+    "calories": {
+      "type": "String",
+      "required": true
+    },
+    "totalfat": {
+      "type": "String",
+      "required": true
+    },
+    "created_date": {
+      "type": "Date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
