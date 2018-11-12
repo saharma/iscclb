@@ -4,9 +4,9 @@
     "port": 27017,
     "url": "mongodb://admin:freefood4U@ds259463.mlab.com:59463/iscc",
     "database": "iscc",
-    "password": "",
+    "password": "freefood4U",
     "name": "mongodb",
-    "user": "",
+    "user": "admin",
     "connector": "mongodb"
   }
 }
