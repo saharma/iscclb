@@ -1,14 +1,4 @@
 {
-  "db": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "",
-    "database": "iscc",
-    "password": "",
-    "name": "db",
-    "user": "",
-    "connector": "mongodb"
-  },
   "mongodb": {
     "url": "mongodb://admin:freefood4U@ds259463.mlab.com:59463/iscc",
     "name": "mongodb",
