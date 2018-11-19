@@ -15,16 +15,16 @@
       "required": true
     },
     "content": {
-      "type": "string"
-	  "required": true
+      "type": "string",
+	    "required": true
     },
     "rating": {
-      "type": "string"
-	  "required": true
+      "type": "string",
+	   "required": true
     },
-	"btype": {
-      "type": "string"
-	  "required": true
+	 "btype": {
+      "type": "string",
+	    "required": true
     },
     "created_date": {
       "type": "Date",

@@ -10,21 +10,25 @@
       "type": "string",
       "required": true
     },
-	"date": {
-	  "type": "date",
-	  "required": true
-	}
+	  "date": {
+	   "type": "date",
+	   "required": true
+  	},
     "medication": {
-      "type": "String"
+      "type": "String",
+      "required": true
     },
     "dosage": {
-      "type": "String"
+      "type": "String",
+      "required": true
     },
     "comment": {
-      "type": "String"
+      "type": "String",
+      "required": true
     },
     "complete": {
-      "type": "String"
+      "type": "String",
+      "required": true
     },
     "created_date": {
       "type": "Date",
