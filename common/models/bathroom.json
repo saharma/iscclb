@@ -1,43 +1,27 @@
 {
-  "name": "symptoms",
+  "name": "bathroom",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "username": {
+    "lat": {
       "type": "string",
       "required": true
     },
-    "date": {
-      "type": "date",
+    "lng": {
+      "type": "string",
       "required": true
     },
-    "day": {
-      "type": "String",
-      "required": true
-    },
-    "pain": {
+    "content": {
       "type": "string"
     },
-    "stress": {
-      "type": "string"
-    },
-    "stool": {
-      "type": "string"
-    },
-    "bowelm": {
-      "type": "string"
-    },
-    "bowelf": {
-      "type": "string"
-    },
-    "bvisit": {
+    "direction": {
       "type": "string"
     },
     "created_date": {
-      "type": "date",
+      "type": "Date",
       "required": true
     }
   },

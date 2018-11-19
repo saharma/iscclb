@@ -46,5 +46,17 @@
   "doclog": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "reviews": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "bathroom": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "dietlog": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

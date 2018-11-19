@@ -1,29 +1,28 @@
 {
-  "name": "doclog",
+  "name": "dietlog",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "username": {
+    "date": {
+      "type": "date"
+    },
+    "meal": {
       "type": "string",
       "required": true
     },
-    "medication": {
-      "type": "String"
-    },
-    "dosage": {
-      "type": "String"
-    },
-    "comment": {
-      "type": "String"
-    },
-    "complete": {
-      "type": "String"
+    "food": {
+      "type": "string",
+      "required": true
     },
     "created_date": {
-      "type": "Date",
+      "type": "date",
+      "required": true
+    },
+    "pain": {
+      "type": "string",
       "required": true
     }
   },

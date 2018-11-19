@@ -1,5 +1,5 @@
 {
-  "name": "doclog",
+  "name": "reviews",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -10,17 +10,13 @@
       "type": "string",
       "required": true
     },
-    "medication": {
-      "type": "String"
+    "rating": {
+      "type": "number",
+      "required": true
     },
-    "dosage": {
-      "type": "String"
-    },
-    "comment": {
-      "type": "String"
-    },
-    "complete": {
-      "type": "String"
+    "review": {
+      "type": "string",
+      "required": true
     },
     "created_date": {
       "type": "Date",
