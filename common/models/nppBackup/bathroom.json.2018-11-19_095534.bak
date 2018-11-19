@@ -16,15 +16,9 @@
     },
     "content": {
       "type": "string"
-	  "required": true
     },
-    "rating": {
+    "direction": {
       "type": "string"
-	  "required": true
-    },
-	"btype": {
-      "type": "string"
-	  "required": true
     },
     "created_date": {
       "type": "Date",
