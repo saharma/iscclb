@@ -18,6 +18,10 @@
       "type": "string",
       "required": true
     },
+    "title":{
+      "type": "string",
+      "required": true
+    },
     "content": {
       "type": "string",
 	    "required": true
@@ -26,9 +30,17 @@
       "type": "string",
 	   "required": true
     },
-	 "btype": {
+    "votes": {
+      "type": "string",
+      "required": true
+    },
+	  "btype": {
       "type": "string",
 	    "required": true
+    },
+    "review": {
+      "type": "string",
+      "required": true
     },
     "created_date": {
       "type": "Date",

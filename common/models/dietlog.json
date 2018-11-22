@@ -6,8 +6,13 @@
     "validateUpsert": true
   },
   "properties": {
+    "username": {
+      "type": "String",
+      "required": true,
+    }
     "date": {
-      "type": "date"
+      "type": "date",
+      "required": true,
     },
     "meal": {
       "type": "string",

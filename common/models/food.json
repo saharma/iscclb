@@ -6,14 +6,6 @@
     "validateUpsert": true
   },
   "properties": {
-    "username": {
-      "type": "String",
-      "required": true
-    },
-    "date": {
-      "type": "Date",
-      "required": true
-    },
     "brand": {
       "type": "String",
       "required": true
@@ -26,19 +18,11 @@
       "type": "String",
       "required": true
     },
-    "servingpercontainer": {
-      "type": "String",
-      "required": true
-    },
-    "amtperserving": {
+    "servingspercontainer": {
       "type": "String",
       "required": true
     },
     "calories": {
-      "type": "String",
-      "required": true
-    },
-    "totalfat": {
       "type": "String",
       "required": true
     },
@@ -52,3 +36,4 @@
   "acls": [],
   "methods": {}
 }
+
