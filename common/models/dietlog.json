@@ -29,7 +29,11 @@
     "pain": {
       "type": "string",
       "required": true
+    },
+    "barcode": {
+      "type": "string"
     }
+
   },
   "validations": [],
   "relations": {},
