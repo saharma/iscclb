@@ -33,7 +33,7 @@
     "servingsize": {
       "type": "String",
       "required": true
-    },
+    }
   },
   "validations": [],
   "relations": {},
