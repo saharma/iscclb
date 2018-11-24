@@ -11,8 +11,8 @@
       "required": true
     },
 	  "date": {
-	   "type": "date",
-	   "required": true
+	    "type": "date",
+	    "required": true
   	},
     "medication": {
       "type": "String",
