@@ -14,10 +14,6 @@
       "type": "String",
       "required": true
     },
-    "servingsize": {
-      "type": "String",
-      "required": true
-    },
     "servingsPerContainer": {
       "type": "String",
       "required": true

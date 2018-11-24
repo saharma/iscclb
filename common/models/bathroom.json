@@ -14,10 +14,6 @@
       "type": "string",
       "required": true
     },
-    "position": {
-      "type": "string",
-      "required": true
-    },
     "title":{
       "type": "string",
       "required": true
