@@ -1,0 +1,26 @@
+{
+  "name": "conversation",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user1": {
+      "type": "string",
+      "required": true
+    },
+    "user2": {
+      "type": "string",
+      "required": true
+    },
+    "accepted": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
