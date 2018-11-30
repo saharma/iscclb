@@ -29,7 +29,7 @@
     "pain": {
       "type": "string",
       "required": true
-    },  
+    },
     "servingsize": {
       "type": "String",
       "required": true

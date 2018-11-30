@@ -58,5 +58,9 @@
   "dietlog": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "chatUser": {
+    "dataSource": "mongodb",
+    "public": true
   }
 }

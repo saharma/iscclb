@@ -1,28 +1,21 @@
 {
-  "name": "food",
+  "name": "chatUser",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "brand": {
-      "type": "String",
+    "username": {
+      "type": "string",
       "required": true
     },
-    "foodname": {
-      "type": "String",
+    "location": {
+      "type": "string",
       "required": true
     },
-    "servingsPerContainer": {
-      "type": "String",
-      "required": true
-    },
-    "barcode": {
-      "type": "String"
-    },
-    "created_date": {
-      "type": "Date",
+    "status": {
+      "type": "string",
       "required": true
     }
   },

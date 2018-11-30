@@ -14,25 +14,25 @@
       "type": "string",
       "required": true
     },
-    "title":{
+    "title": {
       "type": "string",
       "required": true
     },
     "content": {
       "type": "string",
-	    "required": true
+      "required": true
     },
     "rating": {
       "type": "string",
-	   "required": true
+      "required": true
     },
     "votes": {
       "type": "string",
       "required": true
     },
-	  "btype": {
+    "btype": {
       "type": "string",
-	    "required": true
+      "required": true
     },
     "review": {
       "type": "string",
