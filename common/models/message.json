@@ -11,7 +11,7 @@
       "required": true
     },
     "conversationID": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "message": {
@@ -28,7 +28,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "conversation": {
+      "type": "belongsTo",
+      "model": "conversation",
+      "foreignKey": "conversationID"
+    }
+  },
   "acls": [],
   "methods": {}
 }

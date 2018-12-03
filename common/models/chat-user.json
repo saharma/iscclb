@@ -10,7 +10,11 @@
       "type": "string",
       "required": true
     },
-    "location": {
+    "lng": {
+      "type": "string",
+      "required": true
+    },
+    "lat": {
       "type": "string",
       "required": true
     },
