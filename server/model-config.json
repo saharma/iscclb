@@ -14,65 +14,65 @@
     ]
   },
   "User": {
-    "dataSource": "mongodb"
+    "dataSource": "mongoatlas"
   },
   "AccessToken": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": false
   },
   "ACL": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": false
   },
   "symptoms": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   },
   "food": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   },
   "doclog": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   },
   "reviews": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   },
   "bathroom": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   },
   "dietlog": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   },
   "chatUser": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   },
   "conversation": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   },
   "message": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   },
   "maintenancemessage": {
-    "dataSource": "mongodb",
+    "dataSource": "mongoatlas",
     "public": true
   }
 }
