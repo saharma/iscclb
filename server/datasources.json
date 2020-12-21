@@ -8,5 +8,15 @@
     "name": "mongodb",
     "user": "admin",
     "connector": "mongodb"
+  },
+  "mongoatlas":{
+    "host": "ibdwell-cluster.cog2f.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://admin:freefood4U@ibdwell-cluster.cog2f.mongodb.net/iscc?retryWrites=true&w=majority",
+    "database": "iscc",
+    "password": "freefood4U",
+    "name": "mongodb",
+    "user": "admin",
+    "connector": "mongodb"
   }
 }
